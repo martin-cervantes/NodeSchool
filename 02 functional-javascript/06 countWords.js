@@ -1,4 +1,4 @@
-module.exports = countWords = (inputWords) => (
+module.exports = countWords = inputWords => (
   inputWords.reduce((accumulator, currentValue) => {
     accumulator[currentValue] = ++accumulator[currentValue] || 1
 
